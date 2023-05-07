@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Pad from "../components/Pad"
 
 const UsingDSG = () => (
   <Layout>
@@ -21,6 +21,6 @@ const UsingDSG = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Using DSG" />
+export const Head = () => <Pad title="Using DSG" />
 
 export default UsingDSG
